@@ -127,6 +127,13 @@ h1 {
     font-size: 540%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    animation: floatText 15s infinite linear;
+}
+
+@keyframes floatText {
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 /* -------------------------------------- */
@@ -134,3 +141,4 @@ h1 {
 /* -------------------------------------- */
 
 .link-copy {}
+
