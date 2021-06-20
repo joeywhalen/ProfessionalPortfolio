@@ -148,12 +148,13 @@ h1 {
 /* -------------------------------------- */
 
 section .parent {
-    padding: 100px;
+    padding: 10px;
     width: 100vw;
     height: auto;
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: 1fr;
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
     /* grid-template-columns: repeat(3, 1fr); */
 }
 
@@ -169,6 +170,68 @@ section .card {
     justify-content: space-between;
 }
 
-section h3 {
+section h2 {
     margin: 0
+}
+
+article .vpamok {
+    width: 600px;
+    height: auto;
+}
+
+article .omnifood {
+    width: 1000px;
+    height: 700px;
+}
+
+article .ThumbsUp {
+    width: 900px;
+    height: 900px;
+}
+
+article p {
+    color: white;
+}
+
+article .skills{
+    color: black;
+}
+
+.multicolortextvpamok {
+    background-image: linear-gradient(to right, white, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextomnifood {
+    background-image: linear-gradient(to right, #e67e22, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextThumb {
+    background-image: linear-gradient(to right, red, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+footer {
+    display: flexbox;
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+}
+
+.footer-copy-text {
+    display: flexbox;
+    padding-left: 150px;
+    align-items: right;
 }
