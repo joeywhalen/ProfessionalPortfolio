@@ -24,14 +24,14 @@ body {
 .header {
     display: grid;
     background-size: cover;
-    background-clip: border-box;
+    /* background-clip: border-box; */
 }
 
 .logo {
+    height: 300px;
     display: flexbox;
     padding-bottom: 20px;
     padding-left: 60px;
-    margin-bottom: 90px;
 }
 
 .main-nav {
