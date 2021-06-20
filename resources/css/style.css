@@ -171,6 +171,28 @@ section h2 {
     margin: 0
 }
 
+article .vpamok-sidebar {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 200px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 2fr;
+    /* Stay at the top */
+    right: 0;
+    background-color: linear-gradient(to right, #67b26f, #4ca2cd);
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    /* padding-top: 20px;
+    display: grid;
+    width: 100%;
+    margin-left: 800px; */
+}
+
 article .vpamok {
     width: 600px;
     height: auto;
@@ -190,7 +212,7 @@ article p {
     color: white;
 }
 
-article .skills{
+article .skills {
     color: black;
 }
 
