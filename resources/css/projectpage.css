@@ -27,7 +27,7 @@ body {
     display: flex;
     /* height: 50%; */
     /* display: inline-block; */
-    background-image: url(/resources/img/AppleKeyboard.png);
+    background-image: url("/resources/img/AppleKeyboard.png");
     background-size: cover;
     /* background-clip: border-box; */
 }
