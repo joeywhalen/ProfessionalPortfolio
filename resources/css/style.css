@@ -236,12 +236,23 @@ article .skills {
     color: transparent;
 }
 
-.multicolortextThumb {
+.multicolortext-Thumb {
+    display: flex;
     background-image: linear-gradient(to right, red, black);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.multicolortext-Thumb-Heroku {
+    display: flex;
+    background-image: linear-gradient(to right, red, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-left: 100px;
 }
 
 /* -------------------------------------- */
