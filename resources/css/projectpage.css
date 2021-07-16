@@ -194,7 +194,8 @@ article .skills {
 }
 
 .multicolortextBlog {
-    background-image: linear-gradient(to right, #fff, #52796f);
+    background-image: linear-gradient(to right, #fff, #043e2e);
+    /* background-image: linear-gradient(to right, #fff, #52796f); */
     /* background-image: linear-gradient(to right, #84A98C, #52796f); */
     -webkit-background-clip: text;
     -moz-background-clip: text;
