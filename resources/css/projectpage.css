@@ -193,7 +193,7 @@ article .skills {
     color: transparent;
 }
 
-.multicolortextblog {
+.multicolortextBlog {
     background-image: linear-gradient(to right, #84A98C, #52796f);
     -webkit-background-clip: text;
     -moz-background-clip: text;
