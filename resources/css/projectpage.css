@@ -156,6 +156,11 @@ body {
     width: auto;
 }
 
+.blog-skills img {
+    height: 190px;
+    width: auto;
+}
+
 article p {
     color: white;
 }
@@ -182,6 +187,14 @@ article .skills {
 
 .multicolortextThumb {
     background-image: linear-gradient(to right, red, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextblog {
+    background-image: linear-gradient(to right, #84A98C, #52796f);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
