@@ -161,6 +161,8 @@ body {
     width: auto;
 }
 
+
+
 article p {
     color: white;
 }
@@ -197,6 +199,14 @@ article .skills {
     background-image: linear-gradient(to right, #fff, #043e2e);
     /* background-image: linear-gradient(to right, #fff, #52796f); */
     /* background-image: linear-gradient(to right, #84A98C, #52796f); */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextBrownie {
+    background-image: linear-gradient(to right, #69140e, #d58936);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
