@@ -161,7 +161,10 @@ body {
     width: auto;
 }
 
-
+.brownie-skills img {
+    height: 190px;
+    width: auto;
+}
 
 article p {
     color: white;
