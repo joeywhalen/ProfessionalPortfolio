@@ -166,6 +166,11 @@ body {
     width: auto;
 }
 
+.desert-skills img {
+    height: 190px;
+    width: auto;
+}
+
 article p {
     color: white;
 }
@@ -210,6 +215,14 @@ article .skills {
 
 .multicolortextBrownie {
     background-image: linear-gradient(to right, #69140e, #d58936);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextIsland {
+    background-image: linear-gradient(to right, #f3d3b8, #4872bc);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
