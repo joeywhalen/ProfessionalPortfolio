@@ -156,6 +156,18 @@ body {
     width: auto;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* .blog-logos {
+    display: inline-flex;
+    display: grid;
+    display: flex;
+} */
+
 .blog-skills img {
     height: 190px;
     width: auto;
