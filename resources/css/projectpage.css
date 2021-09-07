@@ -171,6 +171,11 @@ body {
     width: auto;
 }
 
+.ev-skills img {
+    height: 190px;
+    width: auto;
+}
+
 article p {
     color: white;
 }
