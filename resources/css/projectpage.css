@@ -189,7 +189,7 @@ body {
 }
 
 .js-guess-number-skills img {
-    height: 230px;
+    height: 190px;
     width: auto;
 }
 
@@ -260,7 +260,7 @@ article .skills {
 }
 
 .multicolortextJSGuessNumber {
-    background-image: linear-gradient(to right, white, #60b347);
+    background-image: linear-gradient(to right, white, black);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
