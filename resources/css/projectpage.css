@@ -188,6 +188,11 @@ body {
     width: auto;
 }
 
+.js-guess-number-skills img {
+    height: 190px;
+    width: auto;
+}
+
 article p {
     color: white;
 }
@@ -248,6 +253,14 @@ article .skills {
 
 .multicolortextEv {
     background-image: linear-gradient(to right, white, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextJSGuessNumber {
+    background-image: linear-gradient(to right, white, #60b347);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
