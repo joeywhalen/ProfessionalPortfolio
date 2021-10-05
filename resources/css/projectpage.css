@@ -193,6 +193,11 @@ body {
     width: auto;
 }
 
+.js-roll-dice-skills img {
+    height: 180px;
+    width: auto;
+}
+
 article p {
     color: white;
 }
@@ -261,6 +266,14 @@ article .skills {
 
 .multicolortextJSGuessNumber {
     background-image: linear-gradient(to right, white, #60b347);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextJSRollDice {
+    background-image: linear-gradient(to right, #753682, #bf2e34);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
