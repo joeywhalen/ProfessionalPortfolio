@@ -193,6 +193,11 @@ body {
     width: auto;
 }
 
+.js-bankist-website-skills img {
+    height: 180px;
+    width: auto;
+}
+
 .js-guess-number-skills img {
     height: 180px;
     width: auto;
@@ -271,6 +276,14 @@ article .skills {
 
 .multicolortextJSBankist {
     background-image: linear-gradient(to right, red, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextJSBankistWebsite {
+    background-image: linear-gradient(to right, #f3f3f3, black);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
