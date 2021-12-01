@@ -188,6 +188,11 @@ body {
     width: auto;
 }
 
+.js-mapty-skills img {
+    height: 180px;
+    width: auto;
+}
+
 .js-bankist-skills img {
     height: 180px;
     width: auto;
@@ -268,6 +273,14 @@ article .skills {
 
 .multicolortextEv {
     background-image: linear-gradient(to right, white, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortextJSMapty {
+    background-image: linear-gradient(to right, #ffb545, #2d3439);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
